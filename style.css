@@ -1,0 +1,61 @@
+h1
+{
+  color:#6b4b5f;
+  font-family: 'Bebas Neue', cursive;
+  word-spacing: 8px;
+  letter-spacing: 5px;
+  font-size: 55px;
+}
+h2
+{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+}
+div.at-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.at-item {
+  color: #d3719b;
+  animation-name: focus-in-expand;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: backwards;
+}
+@keyframes focus-in-expand {
+  0%{
+    letter-spacing: -.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100%{
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+p{
+   color:#517f83;
+   font-family: 'Patrick Hand', cursive;
+   text-align: center;
+   background-color: #e4cccb;
+   line-height: 20px;
+   font-size: 25px;
+}
+a
+{
+  color: #957748;
+  text-decoration: underline;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+}
+body{
+   background-color: #A3AC8C;
+   border: 23px solid #FFBE00;
+   border-radius: 15px;
+   padding: 10px;
+}

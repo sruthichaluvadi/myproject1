@@ -1,0 +1,41 @@
+.form{
+  color: red;
+  font-size: 20px;
+  padding-right: 10px;
+}
+#name{
+color: purple;
+font-family: cursive;
+font-size: 15px;
+}
+p{
+  color: #ffec94;
+  font-size: 25px;
+  background-color: #500b0b;
+
+}
+div
+{
+
+border-radius: 10px;
+background-color: #FFEC94;
+padding: 20px;
+}
+body{
+  border-radius: 30px;
+  border: 19px solid #FFC2C2;
+  padding: 30px;
+  background-color: #500B0B;
+  text-align: center;
+  font-size: 40px;
+
+}
+legend
+{
+  color:#500b0b;
+  font-size: 40px;
+}
+h4
+{
+  color: #ffec94;
+}
