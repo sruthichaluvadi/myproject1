@@ -18,7 +18,7 @@ div.at-container {
   height: 100%;
 }
 .at-item {
-  color: #d3719b;
+  color:  #7f1734;
   animation-name: focus-in-expand;
   animation-duration: 1.2s;
   animation-timing-function: ease-in;
